@@ -2,9 +2,9 @@
 
 /**
  * @ngdoc function
- * @name marryApp.controller:MainCtrl
+ * @name marryApp.controller:AboutCtrl
  * @description
- * # MainCtrl
+ * # AboutCtrl
  * Controller of the marryApp
  */
 angular.module('marryApp')

@@ -24,6 +24,16 @@ angular
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
+      .when('/form', {
+        templateUrl: 'views/form.html',
+        controller: 'FormCtrl',
+        controllerAs: 'form'
+      })
+        .when('/insert', {
+        templateUrl: 'views/insert.html',
+        controller: 'usercontroller',
+        controllerAs: 'insert'
+      })
       .when('/about', {
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl',
