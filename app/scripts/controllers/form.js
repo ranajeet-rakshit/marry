@@ -23,10 +23,10 @@ angular.module('marryApp')
 			"email":$scope.email
     	};
 
-    	var url = "http://localhost/marry_scripts/addUserData.php";
+    	//var url = "http://localhost/marry_scripts/addUserData.php";
 
-    	DataService.post(url, model);
-    }
+    	DataService.insertEmployee(model);
+    };
 
 
   });

@@ -2,9 +2,9 @@
 
 /**
  * @ngdoc overview
- * @name marryApp
+ * @name marry2App
  * @description
- * # marryApp
+ * # marry2App
  *
  * Main module of the application.
  */
@@ -24,20 +24,15 @@ angular
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
-      .when('/form', {
-        templateUrl: 'views/form.html',
-        controller: 'FormCtrl',
-        controllerAs: 'form'
-      })
-        .when('/insert', {
-        templateUrl: 'views/insert.html',
-        controller: 'usercontroller',
-        controllerAs: 'insert'
-      })
       .when('/about', {
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl',
         controllerAs: 'about'
+      })
+      .when('/form', {
+        templateUrl: 'views/form.html',
+        controller: 'FormCtrl',
+        controllerAs: 'form'
       })
       .otherwise({
         redirectTo: '/'
