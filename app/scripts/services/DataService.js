@@ -12,12 +12,12 @@ angular.module("marryApp")
 	var service={}
 
 	service.insertEmployee = function(data){
-		/*$http.post("http://localhost/matrimony/test.php", data)
-		.then(successCallBack)
-		.catch(errorCallBack);*/
-		$http.post("api/test.php", data)
+		$http.post("http://localhost/matrimony/test.php", data)
 		.then(successCallBack)
 		.catch(errorCallBack);
+		/*$http.post("api/test.php", data)
+		.then(successCallBack)
+		.catch(errorCallBack);*/
 	}
 
 	function successCallBack(data){

@@ -22,7 +22,6 @@ angular.module('marryApp')
 			"contact_no":$scope.contact_no,
 			"email":$scope.email
     	};
-
     	//var url = "http://localhost/marry_scripts/addUserData.php";
 
     	DataService.insertEmployee(model);
